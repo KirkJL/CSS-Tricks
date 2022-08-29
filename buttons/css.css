@@ -1,0 +1,54 @@
+body { 
+    background: #202020;
+}
+.Button01 {
+    width:calc(20vw + 6px);
+    height:calc(8vw + 6px);
+    background-image: linear-gradient(90deg, #000000 0%, #0099ff 39%, #000000 80%);
+    border-radius:50px;
+    border-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    color:#000000;
+    font-size:3vw;
+    text-shadow: 0px 1px 0px #eaeaea;
+    font-weight:bold;
+}
+.Button01:hover {
+    animation:slidebg 2s linear infinite;
+}
+.Button02 {
+    width:calc(20vw + 6px);
+    height:calc(8vw + 6px);
+    background-image: linear-gradient(90deg, #000000 0%, #0099ff 39%, #000000 80%);
+    border-radius:50px;
+    border-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    color:#000000;
+    font-size:3vw;
+    text-shadow: 0px 1px 0px #eaeaea;
+    font-weight:bold;
+}
+.Button02:hover {
+    animation:slidebg 2s linear infinite;
+}
+.Button02:after{
+        content:attr(alt);
+        width:20vw;
+        height:8vw;
+        background-color:#202020;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50px;
+}
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+}
