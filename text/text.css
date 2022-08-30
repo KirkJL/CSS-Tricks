@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Modak");
+body { 
+    background: #202020;
+}
+
+.bubblefx {
+    font-family: Modak;
+    font-size:200px;
+    line-height: 80%;
+    display:inline-block;
+    background-image: linear-gradient(90deg, #fff8bd, #4e4d35);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    padding-left: 5px;
+}
+.nofx {
+    color:#fefefe;
+    display:flex;
+    font-size: 65px;
+    text-indent: 25%;
+    letter-spacing: 5px;
+}
+.reflectfx {
+    background-image:
+    linear-gradient(180deg,rgba(255,255,255,.0) 10%,rgba(255,255,255,.5));
+    -webkit-background-clip: text;
+    color: transparent;
+    display:flex;
+    font-size: 75px;
+    transform:rotateX(180deg) skewX(45deg);
+    position:relative;
+    top:-36px;
+    margin-left: -23px;
+    text-indent: 25%;
+}
