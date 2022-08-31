@@ -1,0 +1,38 @@
+body { 
+    background: #202020;
+    color:#eaeaea;
+    text-align: center;
+}
+.wrapper {
+    margin:auto;
+    padding-top: 25px;
+}
+.clock {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #e6f334a8;
+    border-radius: 50%;    
+    display:inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotate 1s linear infinite;
+}
+.clock:after{
+    content:'';
+    box-sizing: border-box;
+    position:absolute;
+    left:50%;
+    top:0;
+    background-color: rgb(255, 255, 255);
+    width: 2px;
+    height:25px;
+    transform: translateX(-50%);
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
