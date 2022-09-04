@@ -1,0 +1,22 @@
+body { 
+    background: #202020;
+    color:#eaeaea;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+.links {
+    padding: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(rgb(245, 244, 244),#202020);
+    box-shadow: 0px -5px 5px rgb(226, 210, 210);
+    width: 100%;
+}
+.links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:1em;
+    color: #eaeaea;
+    font-weight:300;
+    text-shadow: 1px 1px #202020;
+}
