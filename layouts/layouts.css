@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
+.tbuttons {
+ margin: 10%;
+ padding: 5%;
+ background: chocolate;
+ color: #5a5a5a;
+ border-radius: 25px;
+}
+
+.tbuttons a {
+    color:#eaeaea;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.tbuttons p {
+    color:#242424;
+    font-size: 1.7em;
+}
