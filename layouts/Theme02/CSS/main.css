@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+
+body {
+    background-color: rgba(72, 173, 255, 0.5) !important;
+    background-image: url('/img/Acer-Predator-Orion-3000.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#Body {
+    margin-right: 35%;
+    padding: 2%;
+    background-color: transparent;
+}
+#Body h1 {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+.sub-h2 {
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+    text-align: end;
+    padding-right: 5%;
+    font-style: italic;
+    background-color: transparent;
+}
+.where-to-buy {
+    text-align: center;
+    color:#eaeaea;
+    background-color: transparent;
+    padding:1%;
+}
+.where-to-buy a {
+    font-size: 5vh;
+    color: rgb(69, 141, 235);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.where-to-buy a:hover {
+    color:  rgb(0, 69, 160);
+}
+.where-to-buy h2 {
+    color:black;
+}
+.where-to-buy .wrapper {
+    margin-top:-.7%;
+    margin-bottom: 1%;
+    padding:1%;
+    color: #eaeaea;
+    background-color: #8f8f8f65;
+    border-radius: 0px 0px 15px 15px;
+}
+h2 {
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgb(95, 223, 255);
+    padding: 1%
+}
+h2:hover{
+    box-shadow: 0px 0px 5px 3px  rgb(120, 246, 255);
+}
+.sub-h2:hover{
+    box-shadow: none;
+}
+.pc-review {
+    background-color: transparent;
+    padding:2%;
+}
+.pc-review .wrapper {
+    margin-top:-.7%;
+    margin-bottom: 1%;
+    padding:1%;
+    color: #eaeaea;
+    background-color: #8f8f8f65;
+    border-radius: 0px 0px 15px 15px;
+}
+.pc-ratings {
+    background-color: transparent;
+    padding:2%;
+}
+.pc-ratings .wrapper {
+    margin-top:-.7%;
+    margin-bottom: 1%;
+    padding:1%;
+    color: #eaeaea;
+    background-color: #8f8f8f65;
+    border-radius: 0px 0px 15px 15px;
+}
+#ratings {
+    text-align: center;
+}
+.checked {
+    color: gold;
+}
+.part {
+    color: gold;
+    width:50%;
+}
+ul {
+    text-align: center;
+    list-style-type:square;
+}
+ul li {
+    text-align: left;
+}
+#accordion {
+    margin:0 auto;
+  }
+  
+  .menu {
+    border:1px solid #808080;
+    border-bottom:none;
+  }
+  
+   .menu:last-child {
+    border-bottom:1px solid #808080;
+  }
+  
+.header {
+    display:flex;
+    padding:10px; 
+    cursor: pointer;
+    background-color: rgb(95, 223, 255);
+  }
+  
+  .title {
+    flex:1;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .icon {
+    width:20px;
+    font-size: 2vh;
+    font-weight: bold;
+  } 
+  
+  .content {
+    display:none;
+    color:white;
+    background-color: #8f8f8f65;
+    padding:10px;
+  } 
